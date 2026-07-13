@@ -6,6 +6,7 @@ let $name = 'abcd';
 let _name = 'valid';
 //let 4 = 12;
 //let 1Name = 'Tim';
+//let first-name = 'Jo';
 
 let FirstName = 'Haritha';
 let FIRST_NAME = 'Ram';
