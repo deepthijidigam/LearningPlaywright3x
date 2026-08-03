@@ -25,7 +25,7 @@ n.splice(1,3);
 console.log(n); // [2,10,12] it will remove elements from the original array splice(startindex, number of ele to remove)
 
 let arr1 = [3, 40, 6, 12, 15, 11, 10];
-console.log(arr1.slice(2, 3)); //{6} slice(startindex, endindex(exclude))
+console.log(arr1.slice(2, 3)); //[6] slice(startindex, endindex(exclude))
 
 arr1.splice(2, 2);
 console.log(arr1); // [3,40,15,11,10]
