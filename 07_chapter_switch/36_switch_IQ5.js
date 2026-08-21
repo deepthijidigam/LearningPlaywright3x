@@ -1,6 +1,7 @@
-let num = 0;
+let num1 = 0;
+
 // switch will compare strict comparsion
-switch(num){
+switch(num1){
     case false :
         console.log("false matched");
         break;
