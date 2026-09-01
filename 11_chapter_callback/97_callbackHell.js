@@ -5,7 +5,7 @@ function openBrowser(callback){
     setTimeout(function () {
         console.log("Step 1 - browser starting...");
         callback();
-    }, 500);
+    }, 5000);
 }
 
 function goToLoginPage(callback) {
@@ -39,4 +39,5 @@ openBrowser(function(){
         })
     })
 })
+
 

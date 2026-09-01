@@ -11,4 +11,7 @@ let order = new Promise(function(resolve, reject){
 
 });
 
-console.log(order);
+//console.log(order);
+
+order.then(result => console.log(result))
+    .catch(result => console.log(error));
